@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-label="Logo Instituto Conectar">
+  <rect width="120" height="120" rx="16" fill="#1B4D3E"/>
+  <circle cx="60" cy="48" r="22" fill="#F4F1DE"/>
+  <path d="M28 92c8-18 24-28 32-28s24 10 32 28" fill="none" stroke="#F4F1DE" stroke-width="8" stroke-linecap="round"/>
+</svg>
