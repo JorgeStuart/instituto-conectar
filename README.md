@@ -72,7 +72,7 @@ Detalhes e checklist: ver `EP4-NOTAS.md`.
 
 Instruções para GitHub Pages / Netlify: `EP4-NOTAS.md`.
 
-URL pública: ver seção de deploy em `EP4-NOTAS.md` (ou o site publicado deste repositório).
+URL pública: https://jorgestuart.github.io/instituto-conectar/
 
 ## Licença / uso acadêmico
 

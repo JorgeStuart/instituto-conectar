@@ -71,7 +71,7 @@ Imagens informativas têm `alt` descritivo; se houvesse imagens decorativas, usa
 
 ### URL do site
 **https://jorgestuart.github.io/instituto-conectar/**  
-*(marcar como **a definir** se o Pages ainda não estiver ativo; neste caso o site funciona localmente e as instruções estão em `EP4-NOTAS.md`.)*
+(GitHub Pages ativo na branch `main`, pasta raiz. Pode levar alguns minutos para propagar na primeira publicação.)
 
 ### Observação
 Como usamos rotas em hash (`#/projetos`), o Pages não precisa de rewrite de URLs — adequado a site estático sem build.
@@ -95,4 +95,5 @@ Aprendizado principal: acessibilidade e deploy não são “extras” — fazem 
 - Git local configurado com commits e `.gitignore`.
 - Melhorias de acessibilidade aplicadas no código real.
 - Instruções de deploy escritas.
-- Se a URL pública ainda não estiver no ar no momento da entrega, indicar **uso local + instruções** e atualizar o link quando o Pages publicar.
+- Repositório: https://github.com/JorgeStuart/instituto-conectar
+- Pages: https://jorgestuart.github.io/instituto-conectar/ (aguardar build se acabou de ativar).

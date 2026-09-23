@@ -121,7 +121,7 @@ git push -u origin main
 
 ### URL pública deste projeto
 
-- **URL:** `https://jorgestuart.github.io/instituto-conectar/` *(a definir / confirmar após o push)*
+- **URL:** **https://jorgestuart.github.io/instituto-conectar/** (GitHub Pages, branch `main`, pasta `/`)
 - Se o deploy ainda não estiver no ar: uso **local** + estas instruções.
 
 ## 4. O que não fazer
