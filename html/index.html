@@ -13,7 +13,7 @@
 </head>
 <body class="page-spa">
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
-  <header class="site-header">
+  <header class="site-header" role="banner">
     <div class="header-inner">
       <div class="brand">
         <img src="../imagens/logo.svg" width="120" height="120" alt="Logo do Instituto Conectar: círculo e silhueta em verde">
@@ -23,8 +23,8 @@
         </div>
       </div>
       <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true">
-      <label for="nav-toggle" class="nav-toggle-label">Menu</label>
-      <nav class="menu-principal" aria-label="Menu principal">
+      <label for="nav-toggle" class="nav-toggle-label" id="nav-toggle-label">Abrir ou fechar menu</label>
+      <nav id="menu-principal" class="menu-principal" aria-label="Menu principal">
         <ul>
           <li><a href="#/" data-link>Início</a></li>
           <li><a href="#/projetos" data-link>Projetos</a></li>
@@ -35,7 +35,7 @@
     </div>
   </header>
 
-  <main id="conteudo" class="site-main">
+  <main id="conteudo" class="site-main" tabindex="-1">
     <!-- VIEW: Início -->
     <div class="view" data-view="home" hidden>
       <section aria-labelledby="quem-somos">
@@ -135,7 +135,7 @@
 
         <div id="form-feedback" class="mensagem" role="status" aria-live="polite" hidden></div>
 
-        <form id="form-cadastro" action="#" method="post" novalidate>
+        <form id="form-cadastro" action="#" method="post" novalidate aria-labelledby="titulo-cadastro">
           <input type="hidden" id="registro-id" name="id" value="">
 
           <fieldset>
@@ -279,7 +279,7 @@
     </div>
   </main>
 
-  <footer class="site-footer">
+  <footer class="site-footer" role="contentinfo">
     <p>&copy; 2026 Instituto Conectar. CNPJ 12.345.678/0001-90. Todos os direitos reservados.</p>
   </footer>
 </body>

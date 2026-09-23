@@ -60,8 +60,15 @@ window.Conectar = window.Conectar || {};
 
     var html =
       '<div class="tabela-wrap"><table class="tabela-inscritos">' +
+      "<caption>Lista de doadores e voluntários inscritos neste navegador</caption>" +
       "<thead><tr>" +
-      "<th>Nome</th><th>E-mail</th><th>Telefone</th><th>Tipo</th><th>Cidade</th><th>Cadastro</th><th>Ações</th>" +
+      '<th scope="col">Nome</th>' +
+      '<th scope="col">E-mail</th>' +
+      '<th scope="col">Telefone</th>' +
+      '<th scope="col">Tipo</th>' +
+      '<th scope="col">Cidade</th>' +
+      '<th scope="col">Cadastro</th>' +
+      '<th scope="col">Ações</th>' +
       "</tr></thead><tbody>";
 
     ordenada.forEach(function (item) {
@@ -92,9 +99,13 @@ window.Conectar = window.Conectar || {};
         '<td class="acoes-celula">' +
         '<button type="button" class="botao-acao botao-editar" data-acao="editar" data-id="' +
         C.escapeAttr(item.id) +
+        '" aria-label="Editar cadastro de ' +
+        C.escapeAttr(item.nome) +
         '">Editar</button> ' +
         '<button type="button" class="botao-acao botao-excluir" data-acao="excluir" data-id="' +
         C.escapeAttr(item.id) +
+        '" aria-label="Excluir cadastro de ' +
+        C.escapeAttr(item.nome) +
         '">Excluir</button>' +
         "</td></tr>";
     });

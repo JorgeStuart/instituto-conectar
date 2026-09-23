@@ -548,3 +548,41 @@ address p { margin: var(--espaco-sm) 0; }
     padding: var(--espaco-md);
   }
 }
+
+
+.tabela-inscritos caption {
+  caption-side: top;
+  text-align: left;
+  padding: var(--espaco-sm) var(--espaco-md);
+  font-weight: 700;
+  color: var(--cor-primaria);
+  background: var(--cor-fundo);
+}
+
+/* ========== EP4 — Acessibilidade ========== */
+
+.skip-link:focus-visible {
+  left: var(--espaco-md);
+}
+
+.nav-toggle-label:focus-visible {
+  outline: 3px solid var(--cor-destaque);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .menu-principal a:hover,
+  .menu-principal a:active,
+  .card-projeto:hover,
+  .botao-enviar:active {
+    transform: none;
+  }
+}
